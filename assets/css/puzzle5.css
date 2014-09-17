@@ -1,0 +1,153 @@
+.try-again
+{
+width:auto;
+height:auto;
+color:#000000;
+text-align:center;
+background: none;
+font-family: 'FrutigerNextPro';
+/* font-weight: bold; */
+font-size:16px;
+font-weight: normal;
+position:absolute;
+top:361px;
+left:57px;
+z-index:3;
+display:none;
+border:0;
+outline:none;
+}
+.nextlevel
+{
+outline:none;
+width:auto;
+height:auto;
+color:#000000;
+text-align:center;
+background: none;
+font-size:16px;
+font-weight: normal;
+font-family: 'FrutigerNextPro';
+position:absolute;
+top: 397px;
+left: 57px;
+z-index:3;
+display:none;
+border:0;
+}
+#hint-button
+ {
+ background:url(img/info.png);
+height: 30px;
+width: 30px;
+border-radius: 50%;
+border: none;
+outline: none;
+}
+.footer
+{
+position:relative;
+}
+#container
+{
+width:810px;
+margin:auto;
+position:relative;
+}
+.dropbox 
+{
+-webkit-filter: grayscale(0.7);
+position:absolute;
+height:285px;
+width:535px;
+left:265px;
+top:0px;
+z-index:0;
+display:none;
+
+}
+#hint-button:hover {
+box-shadow: 1px 1px 3px 1px #ccc;
+}
+.drag{
+-webkit-filter: grayscale(0.7);
+}
+.full
+{
+position:absolute;
+-webkit-animation: zoomimg 3s forwards; 
+}
+@-webkit-keyframes zoomimg
+{
+100%{ width:810px;
+height:466px; top:0px; left:0px; -webkit-filter: grayscale(0);}
+}
+.bodyinc
+{
+-webkit-animation:gamebody_inc 3s forwards;
+}
+@-webkit-keyframes gamebody_inc
+{
+100%{height:500px;}
+}
+@-webkit-keyframes gamebody_dec
+{
+100%{height:320px;}
+}
+.drops
+{
+position:absolute;
+}
+.drop1{left:265px; top:0px; height:85px; width:100px;}
+.drop2{left:265px; top:65px;height:118px; width:78px;}
+.drop3{left:265px; top:163px;height:83px; width:100px;}
+.drop4{left:344px; top:0px; height:85px; width:94px;}
+.drop5{left:326px; top:67px; height:115px; width:94px;}
+.drop6{left:346px; top:163px; height:83px; width:90px;}
+.drop7{left:416px; top:0px; height:85px; width:90px;} 
+.drop8{left:400px; top:67px; height:114px; width:90px;}
+.drop9{left:418px; top:163px; height:83px; width:90px;}
+.drop10{left:487px; top:0px; height:85px; width:90px;}
+.drop11{left:469px; top:67px; height:114px; width:90px;}
+.drop12{left:490px; top:163px; height:83px; width:90px;}
+.drop13{left:559px; top:0px; height:84px; width:85px;}
+.drop14{left:536px; top:66px; height:116px; width:109px;}
+.drop15{left:561px; top:163px; height:83px; width:106px;}
+.drop16{left:621px; top:0px; height:84px; width:87px;}
+.drop17{left:626px; top:66px; height:116px; width:98px;}
+.drop18{left:624px; top:163px; height:83px; width:84px;}
+.drop19{left:690px; top:0px; height:83px; width:90px;}
+.drop20{left:710px; top:66px; height:115px; width:70px;}
+.drop21{left:690px; top:163px; height:83px; width:90px;}
+#dragbox
+{
+width:260px;
+height:285px;
+}
+.dropbox img
+{
+width:inherit;
+height:inherit;
+}
+.drags img
+{
+width:55px;
+height:40px;
+position:absolute;
+}
+.drop1{
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.drop3{
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.drop19{
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.drop21{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}

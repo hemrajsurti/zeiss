@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'FrutigerNextPro';
+    src: url('../fonts/FrutigerNextPro-Regular.otf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'FrutigerNextPro';
+    src: url('../fonts/FrutigerNextPro-Bold.otf');
+    font-weight: bold;
+}
+body {
+    background: white;
+    font-family: 'FrutigerNextPro';
+    font-weight: normal;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+div.col-1 {
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    float: left;
+}
+div.container {
+    width: 810px;
+    margin: 0 auto;
+}
+div.col-2 {
+    width: 210px;
+    float: left;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.play-btn p {
+    color: white;
+    font-size: 28px;
+}
+div.play-btn {
+    position: relative;
+    top: -135px;
+    left: 30px;
+}
+div.puzzle-body {
+    height: 320px;
+}
+div.col2 img {
+    width: 130px;
+    -webkit-filter: grayscale();
+}
+div.col {
+    width: 35%;
+    float: left;
+}
+div.col3 {
+    width: 12%;
+}
+div.col2 {
+    width: 50%;
+}
+.col2 img {
+    float: left;
+    margin-right: 15px;
+}
+.col2 p {
+    margin-top: 20px;
+}
+.col1 {
+    margin-left: 10px;
+}
+.lenses {
+    float: left;
+    margin: 25px 70px 0;
+}
+div.logo {
+    float: right;
+    margin: 65px 65px 0;
+}
+.footer {
+    min-height: 230px;
+}
+.header {
+    height: 100px;
+}
